@@ -1,0 +1,42 @@
+main: me.EpicKidCreations.Permisons.main
+name: punishment
+version: 1.0
+author: EpicKidCreations
+api-version: 1.13
+
+permisons:
+  punisher.*:
+    defult: op  
+  punisher.tempmute:
+  punisher.mute:
+  punisher.unmute:
+  punisher.ban:
+  punisher.unban:
+  punisher.warn:
+
+commands:
+  warn:
+    description: warn a player
+    usage: /<command> <username> <reason>
+  kick:
+     description: kick a player
+     usage: /<command> <username> <reason>
+  mute:
+    description: mute player
+    usage: /<command> <username> <reason>
+  unmute:
+    description: unmute a player
+    usage: /<command> <username> <reason>
+  tempmute:
+    description: tempmute a player
+    usage: /<command> <username> <time> <reason>
+  ban:
+    description: Ban a player
+    usage: /<command> <username> <reason>    
+  unban:
+    description: UnBan a player
+    usage: /<command> <username> <reason>   
+  tempban:
+    description: tempBan a player
+    usage: /<command> <username> <time> <reason>   
+  
